@@ -1,6 +1,6 @@
 ﻿import { Component, EventEmitter, OnInit, Input, Output, ElementRef, Renderer } from '@angular/core';
 //declare var $: any; // JQuery
-const $ = require('jquery')
+//const $ = require('jquery')
 declare var _: any; // lodash
 
 @Component({
