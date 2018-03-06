@@ -1,6 +1,6 @@
 ﻿import { Directive, ElementRef, Input, Renderer, OnInit } from '@angular/core';
-//declare var $: any; // JQuery
-const $ = require('jquery')
+declare var $: any; // JQuery
+//const $ = require('jquery')
 
 @Directive({
     selector: '[gridStackItem]'
